@@ -1,0 +1,6 @@
+# ignore workspace file
+zooiezoo.code-workspace
+
+# ignore system files
+.DS_Store
+css/.DS_Store
