@@ -1,7 +1,6 @@
-
 .bgimg {
     /* front page image use */
-    background-image: url("../img/2494447998_a9c01b3c6f_b.jpg");
+    background-image: url("../img/3494350425_2ed8b02e15_o.jpg");
     min-height: 940px;
 
     /* Center and scale the image nicely */
@@ -12,11 +11,12 @@
     /* Needed to position the navbar */
     position: relative;
   }
-
+  
 /* Position the navbar container inside the image */
 .container {
     position: absolute;
-    margin: 22px;
+    margin: 9px;
+    padding-bottom: 30px;
     width: auto;
   }
   
@@ -42,16 +42,22 @@
   }
 
 body {
-    background-color: #fefbd8;
+    background-color: #8cc9e6;
   }
 
-  h1 {
+h1 {
     background-color: black;
     text-align: center;
     font-size: 72px;
-    background: -webkit-linear-gradient(right,#262630, #09790e, #00d4ff);
+    background: -webkit-linear-gradient(right,#0b7942, #c8eeca, #ff095b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
- 
-  
+
+h2{
+  color: white;
+  text-align: center;
+  font-size: 48px;
+}
+
+* {box-sizing:border-box}

@@ -1,0 +1,63 @@
+.bgimg {
+    /* front page image use */
+    background-image: url("../img/9e985756393493.59ad3f4105313.png");
+    min-height: 940px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+/* Position the navbar container inside the image */
+.container {
+    position: absolute;
+    margin: 9px;
+    padding-bottom: 30px;
+    width: auto;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 28px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+body {
+    background-color: #8cc9e6;
+  }
+
+h1 {
+    background-color: black;
+    text-align: center;
+    font-size: 72px;
+    background: -webkit-linear-gradient(right,#0b7942, #c8eeca, #ff095b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+h2{
+  color: white;
+  text-align: center;
+  font-size: 48px;
+}
+
+* {box-sizing:border-box}
