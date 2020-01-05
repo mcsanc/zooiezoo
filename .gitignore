@@ -4,3 +4,10 @@ zooiezoo.code-workspace
 # ignore system files
 .DS_Store
 css/.DS_Store
+
+# ignore Vagrant file / for future use
+Vagrant
+
+# ignore demo.html / used or sample code when needed
+demo.html
+
