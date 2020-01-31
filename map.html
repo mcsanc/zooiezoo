@@ -9,11 +9,13 @@
   <meta name="author" content="Marc Sanchez">
 
   <link rel="stylesheet" href="css/map.css">
+  <link rel="stylesheet" href="css/ol.css">
 
 </head>
 
 <body>
     <script src="js/scripts.js"></script>
+    <script src="js/ol.js"></script>
     <h1>Welcome to the Zooie Zoo!</h1>
     <div class="bgimg">
         <div class="container">
@@ -25,9 +27,26 @@
               </div>
           </div>
           <br>
+    <h2>My Map</h2>
+    <div id="map" class="map"></div>
+    <script type="text/javascript">
+      var map = new ol.Map({
+        target: 'map',
+        layers: [
+          new ol.layer.Tile({
+            source: new ol.source.OSM()
+          })
+        ],
+        view: new ol.View({
+          center: ol.proj.fromLonLat([32.4, -99.7]),
+          zoom: 4
+        })
+      });
+    </script>
+    </div>
+    
+    
 
-        
-</div>
 
 </body>
 </html>
